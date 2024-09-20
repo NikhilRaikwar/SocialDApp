@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background-default text-text-light;
+}
+.sleek-card {
+  @apply bg-gray-900 rounded-lg shadow-sm p-6 mb-6 border border-background-dark;
+}
+
+.sleek-input {
+  @apply bg-background-light border border-background-dark rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-accent;
+}
+
+.sleek-button {
+  @apply bg-primary text-white font-medium py-2 px-4 rounded-md hover:bg-opacity-90 transition duration-150 ease-in-out;
+}
+
+.loader {
+  border: 3px solid #e2e8f0;
+  border-top: 3px solid #63b3ed;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
