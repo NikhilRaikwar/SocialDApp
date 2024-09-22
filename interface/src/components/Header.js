@@ -26,7 +26,7 @@ function Header() {
   return (
     <header className='bg-background-dark shadow-md'>
       <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
-        <h1 className='text-2xl font-semibold text-primary'>MetaCircle</h1>
+        <h1 className='text-2xl font-semibold text-primary'>SocialDApp</h1>
         {account && (
           <div className='relative'>
             <button
