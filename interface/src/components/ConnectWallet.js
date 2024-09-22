@@ -9,7 +9,7 @@ function ConnectWallet() {
     <div className='min-h-screen flex flex-col bg-background-default'>
       <header className='bg-background-dark shadow-md'>
         <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
-          <h1 className='text-2xl font-semibold text-primary'>MetaCircle</h1>
+          <h1 className='text-2xl font-semibold text-primary'>SocialDApp</h1>
           <button
             onClick={connectWallet}
             className='bg-primary text-background-dark font-medium py-2 px-4 rounded-md hover:bg-opacity-90 transition duration-150 ease-in-out'
@@ -21,7 +21,7 @@ function ConnectWallet() {
       <main className='flex-grow container my-[-40px] mx-auto px-4 py-16 flex items-center justify-between'>
         <div className='max-w-xl'>
           <h2 className='text-7xl font-bold text-primary mb-4'>
-            Welcome to Metacircle
+            Welcome to SocialDApp
           </h2>
           <p className='text-xl text-text-light mb-8'>
             Join our community of passionate builders and share your journey in
